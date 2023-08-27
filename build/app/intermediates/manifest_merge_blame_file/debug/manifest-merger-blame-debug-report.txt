@@ -1,0 +1,372 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.PCOSimplifyDASA.promject"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="34" />
+10    <!--
+11         Flutter needs it to communicate with the running application
+12         to allow setting breakpoints, to provide hot reload, etc.
+13    -->
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->C:\Users\hagem\Desktop\Projects\PCOSimplify\android\app\src\debug\AndroidManifest.xml:6:5-66
+14-->C:\Users\hagem\Desktop\Projects\PCOSimplify\android\app\src\debug\AndroidManifest.xml:6:22-64
+15    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+15-->[:flutter_local_notifications] C:\Users\hagem\Desktop\Projects\PCOSimplify\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-81
+15-->[:flutter_local_notifications] C:\Users\hagem\Desktop\Projects\PCOSimplify\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:7:22-78
+16    <uses-permission android:name="android.permission.VIBRATE" />
+16-->[:flutter_local_notifications] C:\Users\hagem\Desktop\Projects\PCOSimplify\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:8:5-66
+16-->[:flutter_local_notifications] C:\Users\hagem\Desktop\Projects\PCOSimplify\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:8:22-63
+17    <uses-permission android:name="android.permission.USE_FULL_SCREEN_INTENT" />
+17-->[:flutter_local_notifications] C:\Users\hagem\Desktop\Projects\PCOSimplify\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:9:5-81
+17-->[:flutter_local_notifications] C:\Users\hagem\Desktop\Projects\PCOSimplify\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:9:22-78
+18    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM" />
+18-->[:flutter_local_notifications] C:\Users\hagem\Desktop\Projects\PCOSimplify\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:10:5-79
+18-->[:flutter_local_notifications] C:\Users\hagem\Desktop\Projects\PCOSimplify\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:10:22-76
+19    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+19-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\hagem\.gradle\caches\transforms-2\files-2.1\6019ce2b3d9e6474cb1854a65b8a8b6f\jetified-firebase-auth-21.0.1\AndroidManifest.xml:24:5-79
+19-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\hagem\.gradle\caches\transforms-2\files-2.1\6019ce2b3d9e6474cb1854a65b8a8b6f\jetified-firebase-auth-21.0.1\AndroidManifest.xml:24:22-76
+20    <uses-permission android:name="android.permission.WAKE_LOCK" />
+20-->[com.google.android.gms:play-services-measurement-api:20.1.0] C:\Users\hagem\.gradle\caches\transforms-2\files-2.1\bfa2a1195b9b241254389799dc14f564\jetified-play-services-measurement-api-20.1.0\AndroidManifest.xml:24:5-68
+20-->[com.google.android.gms:play-services-measurement-api:20.1.0] C:\Users\hagem\.gradle\caches\transforms-2\files-2.1\bfa2a1195b9b241254389799dc14f564\jetified-play-services-measurement-api-20.1.0\AndroidManifest.xml:24:22-65
+21    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" /> <!-- Include required permissions for Advertising Id -->
+21-->[com.google.android.gms:play-services-measurement:20.1.0] C:\Users\hagem\.gradle\caches\transforms-2\files-2.1\f3ae825971fd511d387082a27a4e2377\jetified-play-services-measurement-20.1.0\AndroidManifest.xml:26:5-110
+21-->[com.google.android.gms:play-services-measurement:20.1.0] C:\Users\hagem\.gradle\caches\transforms-2\files-2.1\f3ae825971fd511d387082a27a4e2377\jetified-play-services-measurement-20.1.0\AndroidManifest.xml:26:22-107
+22    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+22-->[com.google.android.gms:play-services-ads-identifier:18.0.0] C:\Users\hagem\.gradle\caches\transforms-2\files-2.1\0821ffe83937b155bfd81a5a96444e93\jetified-play-services-ads-identifier-18.0.0\AndroidManifest.xml:23:5-79
+22-->[com.google.android.gms:play-services-ads-identifier:18.0.0] C:\Users\hagem\.gradle\caches\transforms-2\files-2.1\0821ffe83937b155bfd81a5a96444e93\jetified-play-services-ads-identifier-18.0.0\AndroidManifest.xml:23:22-76
+23
+24    <application
+25        android:name="android.app.Application"
+26        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+26-->[androidx.core:core:1.6.0] C:\Users\hagem\.gradle\caches\transforms-2\files-2.1\b01071293a1b7ecae267e95f1144cd77\core-1.6.0\AndroidManifest.xml:24:18-86
+27        android:debuggable="true"
+28        android:icon="@mipmap/ic_launcher"
+29        android:label="PCOSimplify" >
+30        <activity
+31            android:name="com.example.promject.MainActivity"
+32            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+33            android:exported="true"
+34            android:hardwareAccelerated="true"
+35            android:launchMode="singleTop"
+36            android:theme="@style/LaunchTheme"
+37            android:windowSoftInputMode="adjustResize" >
+38
+39            <!--
+40                 Specifies an Android theme to apply to this Activity as soon as
+41                 the Android process has started. This theme is visible to the user
+42                 while the Flutter UI initializes. After that, this theme continues
+43                 to determine the Window background behind the Flutter UI.
+44            -->
+45            <meta-data
+46                android:name="io.flutter.embedding.android.NormalTheme"
+47                android:resource="@style/NormalTheme" />
+48
+49            <intent-filter>
+50                <action android:name="android.intent.action.MAIN" />
+51
+52                <category android:name="android.intent.category.LAUNCHER" />
+53            </intent-filter>
+54        </activity>
+55        <!--
+56             Don't delete the meta-data below.
+57             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+58        -->
+59        <meta-data
+60            android:name="flutterEmbedding"
+61            android:value="2" />
+62
+63        <service
+63-->[:firebase_auth] C:\Users\hagem\Desktop\Projects\PCOSimplify\build\firebase_auth\intermediates\library_manifest\debug\AndroidManifest.xml:8:9-12:19
+64            android:name="com.google.firebase.components.ComponentDiscoveryService"
+64-->[:firebase_auth] C:\Users\hagem\Desktop\Projects\PCOSimplify\build\firebase_auth\intermediates\library_manifest\debug\AndroidManifest.xml:8:18-89
+65            android:directBootAware="true"
+65-->[com.google.firebase:firebase-common:20.0.0] C:\Users\hagem\.gradle\caches\transforms-2\files-2.1\428b22906fc668f7dcaab1045cfc5b08\jetified-firebase-common-20.0.0\AndroidManifest.xml:35:13-43
+66            android:exported="false" >
+66-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\hagem\.gradle\caches\transforms-2\files-2.1\6019ce2b3d9e6474cb1854a65b8a8b6f\jetified-firebase-auth-21.0.1\AndroidManifest.xml:76:13-37
+67            <meta-data
+67-->[:firebase_auth] C:\Users\hagem\Desktop\Projects\PCOSimplify\build\firebase_auth\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-11:85
+68                android:name="com.google.firebase.components:io.flutter.plugins.firebase.auth.FlutterFirebaseAuthRegistrar"
+68-->[:firebase_auth] C:\Users\hagem\Desktop\Projects\PCOSimplify\build\firebase_auth\intermediates\library_manifest\debug\AndroidManifest.xml:10:17-124
+69                android:value="com.google.firebase.components.ComponentRegistrar" />
+69-->[:firebase_auth] C:\Users\hagem\Desktop\Projects\PCOSimplify\build\firebase_auth\intermediates\library_manifest\debug\AndroidManifest.xml:11:17-82
+70            <meta-data
+70-->[:firebase_database] C:\Users\hagem\Desktop\Projects\PCOSimplify\build\firebase_database\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-11:85
+71                android:name="com.google.firebase.components:io.flutter.plugins.firebase.database.FlutterFirebaseAppRegistrar"
+71-->[:firebase_database] C:\Users\hagem\Desktop\Projects\PCOSimplify\build\firebase_database\intermediates\library_manifest\debug\AndroidManifest.xml:10:17-127
+72                android:value="com.google.firebase.components.ComponentRegistrar" />
+72-->[:firebase_database] C:\Users\hagem\Desktop\Projects\PCOSimplify\build\firebase_database\intermediates\library_manifest\debug\AndroidManifest.xml:11:17-82
+73            <meta-data
+73-->[:cloud_firestore] C:\Users\hagem\Desktop\Projects\PCOSimplify\build\cloud_firestore\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-11:85
+74                android:name="com.google.firebase.components:io.flutter.plugins.firebase.firestore.FlutterFirebaseFirestoreRegistrar"
+74-->[:cloud_firestore] C:\Users\hagem\Desktop\Projects\PCOSimplify\build\cloud_firestore\intermediates\library_manifest\debug\AndroidManifest.xml:10:17-134
+75                android:value="com.google.firebase.components.ComponentRegistrar" />
+75-->[:cloud_firestore] C:\Users\hagem\Desktop\Projects\PCOSimplify\build\cloud_firestore\intermediates\library_manifest\debug\AndroidManifest.xml:11:17-82
+76            <meta-data
+76-->[:firebase_core] C:\Users\hagem\Desktop\Projects\PCOSimplify\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-11:85
+77                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar"
+77-->[:firebase_core] C:\Users\hagem\Desktop\Projects\PCOSimplify\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:10:17-124
+78                android:value="com.google.firebase.components.ComponentRegistrar" />
+78-->[:firebase_core] C:\Users\hagem\Desktop\Projects\PCOSimplify\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:11:17-82
+79            <meta-data
+79-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\hagem\.gradle\caches\transforms-2\files-2.1\6019ce2b3d9e6474cb1854a65b8a8b6f\jetified-firebase-auth-21.0.1\AndroidManifest.xml:77:13-79:85
+80                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+80-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\hagem\.gradle\caches\transforms-2\files-2.1\6019ce2b3d9e6474cb1854a65b8a8b6f\jetified-firebase-auth-21.0.1\AndroidManifest.xml:78:17-109
+81                android:value="com.google.firebase.components.ComponentRegistrar" />
+81-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\hagem\.gradle\caches\transforms-2\files-2.1\6019ce2b3d9e6474cb1854a65b8a8b6f\jetified-firebase-auth-21.0.1\AndroidManifest.xml:79:17-82
+82            <meta-data
+82-->[com.google.firebase:firebase-firestore:24.0.1] C:\Users\hagem\.gradle\caches\transforms-2\files-2.1\86b5b3fb0c95506a45a538a2c1a4d9da\jetified-firebase-firestore-24.0.1\AndroidManifest.xml:20:13-22:85
+83                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+83-->[com.google.firebase:firebase-firestore:24.0.1] C:\Users\hagem\.gradle\caches\transforms-2\files-2.1\86b5b3fb0c95506a45a538a2c1a4d9da\jetified-firebase-firestore-24.0.1\AndroidManifest.xml:21:17-111
+84                android:value="com.google.firebase.components.ComponentRegistrar" />
+84-->[com.google.firebase:firebase-firestore:24.0.1] C:\Users\hagem\.gradle\caches\transforms-2\files-2.1\86b5b3fb0c95506a45a538a2c1a4d9da\jetified-firebase-firestore-24.0.1\AndroidManifest.xml:22:17-82
+85            <meta-data
+85-->[com.google.firebase:firebase-database:20.0.3] C:\Users\hagem\.gradle\caches\transforms-2\files-2.1\8d383fa0055c9a40722926caba910e93\jetified-firebase-database-20.0.3\AndroidManifest.xml:32:13-34:85
+86                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+86-->[com.google.firebase:firebase-database:20.0.3] C:\Users\hagem\.gradle\caches\transforms-2\files-2.1\8d383fa0055c9a40722926caba910e93\jetified-firebase-database-20.0.3\AndroidManifest.xml:33:17-109
+87                android:value="com.google.firebase.components.ComponentRegistrar" />
+87-->[com.google.firebase:firebase-database:20.0.3] C:\Users\hagem\.gradle\caches\transforms-2\files-2.1\8d383fa0055c9a40722926caba910e93\jetified-firebase-database-20.0.3\AndroidManifest.xml:34:17-82
+88            <meta-data
+88-->[com.google.android.gms:play-services-measurement-api:20.1.0] C:\Users\hagem\.gradle\caches\transforms-2\files-2.1\bfa2a1195b9b241254389799dc14f564\jetified-play-services-measurement-api-20.1.0\AndroidManifest.xml:30:13-32:85
+89                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+89-->[com.google.android.gms:play-services-measurement-api:20.1.0] C:\Users\hagem\.gradle\caches\transforms-2\files-2.1\bfa2a1195b9b241254389799dc14f564\jetified-play-services-measurement-api-20.1.0\AndroidManifest.xml:31:17-139
+90                android:value="com.google.firebase.components.ComponentRegistrar" />
+90-->[com.google.android.gms:play-services-measurement-api:20.1.0] C:\Users\hagem\.gradle\caches\transforms-2\files-2.1\bfa2a1195b9b241254389799dc14f564\jetified-play-services-measurement-api-20.1.0\AndroidManifest.xml:32:17-82
+91            <meta-data
+91-->[com.google.firebase:firebase-installations:17.0.0] C:\Users\hagem\.gradle\caches\transforms-2\files-2.1\ad93e97b2a031718ce6fc9585eece700\jetified-firebase-installations-17.0.0\AndroidManifest.xml:18:13-20:85
+92                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+92-->[com.google.firebase:firebase-installations:17.0.0] C:\Users\hagem\.gradle\caches\transforms-2\files-2.1\ad93e97b2a031718ce6fc9585eece700\jetified-firebase-installations-17.0.0\AndroidManifest.xml:19:17-127
+93                android:value="com.google.firebase.components.ComponentRegistrar" />
+93-->[com.google.firebase:firebase-installations:17.0.0] C:\Users\hagem\.gradle\caches\transforms-2\files-2.1\ad93e97b2a031718ce6fc9585eece700\jetified-firebase-installations-17.0.0\AndroidManifest.xml:20:17-82
+94        </service>
+95
+96        <receiver
+96-->[:flutter_local_notifications] C:\Users\hagem\Desktop\Projects\PCOSimplify\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:13:9-15:40
+97            android:name="com.dexterous.flutterlocalnotifications.ScheduledNotificationReceiver"
+97-->[:flutter_local_notifications] C:\Users\hagem\Desktop\Projects\PCOSimplify\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:14:13-97
+98            android:exported="false" />
+98-->[:flutter_local_notifications] C:\Users\hagem\Desktop\Projects\PCOSimplify\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:15:13-37
+99        <receiver
+99-->[:flutter_local_notifications] C:\Users\hagem\Desktop\Projects\PCOSimplify\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:16:9-25:20
+100            android:name="com.dexterous.flutterlocalnotifications.ScheduledNotificationBootReceiver"
+100-->[:flutter_local_notifications] C:\Users\hagem\Desktop\Projects\PCOSimplify\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:17:13-101
+101            android:exported="false" >
+101-->[:flutter_local_notifications] C:\Users\hagem\Desktop\Projects\PCOSimplify\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:18:13-37
+102            <intent-filter>
+102-->[:flutter_local_notifications] C:\Users\hagem\Desktop\Projects\PCOSimplify\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:19:13-24:29
+103                <action android:name="android.intent.action.BOOT_COMPLETED" />
+103-->[:flutter_local_notifications] C:\Users\hagem\Desktop\Projects\PCOSimplify\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:20:17-79
+103-->[:flutter_local_notifications] C:\Users\hagem\Desktop\Projects\PCOSimplify\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:20:25-76
+104                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+104-->[:flutter_local_notifications] C:\Users\hagem\Desktop\Projects\PCOSimplify\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:21:17-84
+104-->[:flutter_local_notifications] C:\Users\hagem\Desktop\Projects\PCOSimplify\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:21:25-81
+105                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+105-->[:flutter_local_notifications] C:\Users\hagem\Desktop\Projects\PCOSimplify\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:22:17-82
+105-->[:flutter_local_notifications] C:\Users\hagem\Desktop\Projects\PCOSimplify\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:22:25-79
+106                <action android:name="com.htc.intent.action.QUICKBOOT_POWERON" />
+106-->[:flutter_local_notifications] C:\Users\hagem\Desktop\Projects\PCOSimplify\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:23:17-82
+106-->[:flutter_local_notifications] C:\Users\hagem\Desktop\Projects\PCOSimplify\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:23:25-79
+107            </intent-filter>
+108        </receiver>
+109
+110        <activity
+110-->[:url_launcher_android] C:\Users\hagem\Desktop\Projects\PCOSimplify\build\url_launcher_android\intermediates\library_manifest\debug\AndroidManifest.xml:8:9-11:74
+111            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
+111-->[:url_launcher_android] C:\Users\hagem\Desktop\Projects\PCOSimplify\build\url_launcher_android\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-74
+112            android:exported="false"
+112-->[:url_launcher_android] C:\Users\hagem\Desktop\Projects\PCOSimplify\build\url_launcher_android\intermediates\library_manifest\debug\AndroidManifest.xml:10:13-37
+113            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+113-->[:url_launcher_android] C:\Users\hagem\Desktop\Projects\PCOSimplify\build\url_launcher_android\intermediates\library_manifest\debug\AndroidManifest.xml:11:13-71
+114
+115        <uses-library
+115-->[androidx.window:window:1.0.0-beta04] C:\Users\hagem\.gradle\caches\transforms-2\files-2.1\7a050c02589f06f2c570e27673788beb\jetified-window-1.0.0-beta04\AndroidManifest.xml:25:9-27:40
+116            android:name="androidx.window.extensions"
+116-->[androidx.window:window:1.0.0-beta04] C:\Users\hagem\.gradle\caches\transforms-2\files-2.1\7a050c02589f06f2c570e27673788beb\jetified-window-1.0.0-beta04\AndroidManifest.xml:26:13-54
+117            android:required="false" />
+117-->[androidx.window:window:1.0.0-beta04] C:\Users\hagem\.gradle\caches\transforms-2\files-2.1\7a050c02589f06f2c570e27673788beb\jetified-window-1.0.0-beta04\AndroidManifest.xml:27:13-37
+118        <uses-library
+118-->[androidx.window:window:1.0.0-beta04] C:\Users\hagem\.gradle\caches\transforms-2\files-2.1\7a050c02589f06f2c570e27673788beb\jetified-window-1.0.0-beta04\AndroidManifest.xml:28:9-30:40
+119            android:name="androidx.window.sidecar"
+119-->[androidx.window:window:1.0.0-beta04] C:\Users\hagem\.gradle\caches\transforms-2\files-2.1\7a050c02589f06f2c570e27673788beb\jetified-window-1.0.0-beta04\AndroidManifest.xml:29:13-51
+120            android:required="false" />
+120-->[androidx.window:window:1.0.0-beta04] C:\Users\hagem\.gradle\caches\transforms-2\files-2.1\7a050c02589f06f2c570e27673788beb\jetified-window-1.0.0-beta04\AndroidManifest.xml:30:13-37
+121
+122        <activity
+122-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\hagem\.gradle\caches\transforms-2\files-2.1\6019ce2b3d9e6474cb1854a65b8a8b6f\jetified-firebase-auth-21.0.1\AndroidManifest.xml:27:9-44:20
+123            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+123-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\hagem\.gradle\caches\transforms-2\files-2.1\6019ce2b3d9e6474cb1854a65b8a8b6f\jetified-firebase-auth-21.0.1\AndroidManifest.xml:28:13-80
+124            android:excludeFromRecents="true"
+124-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\hagem\.gradle\caches\transforms-2\files-2.1\6019ce2b3d9e6474cb1854a65b8a8b6f\jetified-firebase-auth-21.0.1\AndroidManifest.xml:29:13-46
+125            android:exported="true"
+125-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\hagem\.gradle\caches\transforms-2\files-2.1\6019ce2b3d9e6474cb1854a65b8a8b6f\jetified-firebase-auth-21.0.1\AndroidManifest.xml:30:13-36
+126            android:launchMode="singleTask"
+126-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\hagem\.gradle\caches\transforms-2\files-2.1\6019ce2b3d9e6474cb1854a65b8a8b6f\jetified-firebase-auth-21.0.1\AndroidManifest.xml:31:13-44
+127            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+127-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\hagem\.gradle\caches\transforms-2\files-2.1\6019ce2b3d9e6474cb1854a65b8a8b6f\jetified-firebase-auth-21.0.1\AndroidManifest.xml:32:13-72
+128            <intent-filter>
+128-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\hagem\.gradle\caches\transforms-2\files-2.1\6019ce2b3d9e6474cb1854a65b8a8b6f\jetified-firebase-auth-21.0.1\AndroidManifest.xml:33:13-43:29
+129                <action android:name="android.intent.action.VIEW" />
+129-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\hagem\.gradle\caches\transforms-2\files-2.1\6019ce2b3d9e6474cb1854a65b8a8b6f\jetified-firebase-auth-21.0.1\AndroidManifest.xml:34:17-69
+129-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\hagem\.gradle\caches\transforms-2\files-2.1\6019ce2b3d9e6474cb1854a65b8a8b6f\jetified-firebase-auth-21.0.1\AndroidManifest.xml:34:25-66
+130
+131                <category android:name="android.intent.category.DEFAULT" />
+131-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\hagem\.gradle\caches\transforms-2\files-2.1\6019ce2b3d9e6474cb1854a65b8a8b6f\jetified-firebase-auth-21.0.1\AndroidManifest.xml:36:17-76
+131-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\hagem\.gradle\caches\transforms-2\files-2.1\6019ce2b3d9e6474cb1854a65b8a8b6f\jetified-firebase-auth-21.0.1\AndroidManifest.xml:36:27-73
+132                <category android:name="android.intent.category.BROWSABLE" />
+132-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\hagem\.gradle\caches\transforms-2\files-2.1\6019ce2b3d9e6474cb1854a65b8a8b6f\jetified-firebase-auth-21.0.1\AndroidManifest.xml:37:17-78
+132-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\hagem\.gradle\caches\transforms-2\files-2.1\6019ce2b3d9e6474cb1854a65b8a8b6f\jetified-firebase-auth-21.0.1\AndroidManifest.xml:37:27-75
+133
+134                <data
+134-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\hagem\.gradle\caches\transforms-2\files-2.1\6019ce2b3d9e6474cb1854a65b8a8b6f\jetified-firebase-auth-21.0.1\AndroidManifest.xml:39:17-42:51
+135                    android:host="firebase.auth"
+135-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\hagem\.gradle\caches\transforms-2\files-2.1\6019ce2b3d9e6474cb1854a65b8a8b6f\jetified-firebase-auth-21.0.1\AndroidManifest.xml:40:21-49
+136                    android:path="/"
+136-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\hagem\.gradle\caches\transforms-2\files-2.1\6019ce2b3d9e6474cb1854a65b8a8b6f\jetified-firebase-auth-21.0.1\AndroidManifest.xml:41:21-37
+137                    android:scheme="genericidp" />
+137-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\hagem\.gradle\caches\transforms-2\files-2.1\6019ce2b3d9e6474cb1854a65b8a8b6f\jetified-firebase-auth-21.0.1\AndroidManifest.xml:42:21-48
+138            </intent-filter>
+139        </activity>
+140        <activity
+140-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\hagem\.gradle\caches\transforms-2\files-2.1\6019ce2b3d9e6474cb1854a65b8a8b6f\jetified-firebase-auth-21.0.1\AndroidManifest.xml:45:9-62:20
+141            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+141-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\hagem\.gradle\caches\transforms-2\files-2.1\6019ce2b3d9e6474cb1854a65b8a8b6f\jetified-firebase-auth-21.0.1\AndroidManifest.xml:46:13-79
+142            android:excludeFromRecents="true"
+142-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\hagem\.gradle\caches\transforms-2\files-2.1\6019ce2b3d9e6474cb1854a65b8a8b6f\jetified-firebase-auth-21.0.1\AndroidManifest.xml:47:13-46
+143            android:exported="true"
+143-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\hagem\.gradle\caches\transforms-2\files-2.1\6019ce2b3d9e6474cb1854a65b8a8b6f\jetified-firebase-auth-21.0.1\AndroidManifest.xml:48:13-36
+144            android:launchMode="singleTask"
+144-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\hagem\.gradle\caches\transforms-2\files-2.1\6019ce2b3d9e6474cb1854a65b8a8b6f\jetified-firebase-auth-21.0.1\AndroidManifest.xml:49:13-44
+145            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+145-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\hagem\.gradle\caches\transforms-2\files-2.1\6019ce2b3d9e6474cb1854a65b8a8b6f\jetified-firebase-auth-21.0.1\AndroidManifest.xml:50:13-72
+146            <intent-filter>
+146-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\hagem\.gradle\caches\transforms-2\files-2.1\6019ce2b3d9e6474cb1854a65b8a8b6f\jetified-firebase-auth-21.0.1\AndroidManifest.xml:51:13-61:29
+147                <action android:name="android.intent.action.VIEW" />
+147-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\hagem\.gradle\caches\transforms-2\files-2.1\6019ce2b3d9e6474cb1854a65b8a8b6f\jetified-firebase-auth-21.0.1\AndroidManifest.xml:34:17-69
+147-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\hagem\.gradle\caches\transforms-2\files-2.1\6019ce2b3d9e6474cb1854a65b8a8b6f\jetified-firebase-auth-21.0.1\AndroidManifest.xml:34:25-66
+148
+149                <category android:name="android.intent.category.DEFAULT" />
+149-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\hagem\.gradle\caches\transforms-2\files-2.1\6019ce2b3d9e6474cb1854a65b8a8b6f\jetified-firebase-auth-21.0.1\AndroidManifest.xml:36:17-76
+149-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\hagem\.gradle\caches\transforms-2\files-2.1\6019ce2b3d9e6474cb1854a65b8a8b6f\jetified-firebase-auth-21.0.1\AndroidManifest.xml:36:27-73
+150                <category android:name="android.intent.category.BROWSABLE" />
+150-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\hagem\.gradle\caches\transforms-2\files-2.1\6019ce2b3d9e6474cb1854a65b8a8b6f\jetified-firebase-auth-21.0.1\AndroidManifest.xml:37:17-78
+150-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\hagem\.gradle\caches\transforms-2\files-2.1\6019ce2b3d9e6474cb1854a65b8a8b6f\jetified-firebase-auth-21.0.1\AndroidManifest.xml:37:27-75
+151
+152                <data
+152-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\hagem\.gradle\caches\transforms-2\files-2.1\6019ce2b3d9e6474cb1854a65b8a8b6f\jetified-firebase-auth-21.0.1\AndroidManifest.xml:39:17-42:51
+153                    android:host="firebase.auth"
+153-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\hagem\.gradle\caches\transforms-2\files-2.1\6019ce2b3d9e6474cb1854a65b8a8b6f\jetified-firebase-auth-21.0.1\AndroidManifest.xml:40:21-49
+154                    android:path="/"
+154-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\hagem\.gradle\caches\transforms-2\files-2.1\6019ce2b3d9e6474cb1854a65b8a8b6f\jetified-firebase-auth-21.0.1\AndroidManifest.xml:41:21-37
+155                    android:scheme="recaptcha" />
+155-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\hagem\.gradle\caches\transforms-2\files-2.1\6019ce2b3d9e6474cb1854a65b8a8b6f\jetified-firebase-auth-21.0.1\AndroidManifest.xml:42:21-48
+156            </intent-filter>
+157        </activity>
+158
+159        <service
+159-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\hagem\.gradle\caches\transforms-2\files-2.1\6019ce2b3d9e6474cb1854a65b8a8b6f\jetified-firebase-auth-21.0.1\AndroidManifest.xml:64:9-73:19
+160            android:name="com.google.firebase.auth.api.fallback.service.FirebaseAuthFallbackService"
+160-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\hagem\.gradle\caches\transforms-2\files-2.1\6019ce2b3d9e6474cb1854a65b8a8b6f\jetified-firebase-auth-21.0.1\AndroidManifest.xml:65:13-101
+161            android:enabled="true"
+161-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\hagem\.gradle\caches\transforms-2\files-2.1\6019ce2b3d9e6474cb1854a65b8a8b6f\jetified-firebase-auth-21.0.1\AndroidManifest.xml:66:13-35
+162            android:exported="false" >
+162-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\hagem\.gradle\caches\transforms-2\files-2.1\6019ce2b3d9e6474cb1854a65b8a8b6f\jetified-firebase-auth-21.0.1\AndroidManifest.xml:67:13-37
+163            <intent-filter>
+163-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\hagem\.gradle\caches\transforms-2\files-2.1\6019ce2b3d9e6474cb1854a65b8a8b6f\jetified-firebase-auth-21.0.1\AndroidManifest.xml:68:13-72:29
+164                <action android:name="com.google.firebase.auth.api.gms.service.START" />
+164-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\hagem\.gradle\caches\transforms-2\files-2.1\6019ce2b3d9e6474cb1854a65b8a8b6f\jetified-firebase-auth-21.0.1\AndroidManifest.xml:69:17-89
+164-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\hagem\.gradle\caches\transforms-2\files-2.1\6019ce2b3d9e6474cb1854a65b8a8b6f\jetified-firebase-auth-21.0.1\AndroidManifest.xml:69:25-86
+165
+166                <category android:name="android.intent.category.DEFAULT" />
+166-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\hagem\.gradle\caches\transforms-2\files-2.1\6019ce2b3d9e6474cb1854a65b8a8b6f\jetified-firebase-auth-21.0.1\AndroidManifest.xml:36:17-76
+166-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\hagem\.gradle\caches\transforms-2\files-2.1\6019ce2b3d9e6474cb1854a65b8a8b6f\jetified-firebase-auth-21.0.1\AndroidManifest.xml:36:27-73
+167            </intent-filter>
+168        </service>
+169
+170        <provider
+170-->[com.google.firebase:firebase-common:20.0.0] C:\Users\hagem\.gradle\caches\transforms-2\files-2.1\428b22906fc668f7dcaab1045cfc5b08\jetified-firebase-common-20.0.0\AndroidManifest.xml:26:9-31:39
+171            android:name="com.google.firebase.provider.FirebaseInitProvider"
+171-->[com.google.firebase:firebase-common:20.0.0] C:\Users\hagem\.gradle\caches\transforms-2\files-2.1\428b22906fc668f7dcaab1045cfc5b08\jetified-firebase-common-20.0.0\AndroidManifest.xml:27:13-77
+172            android:authorities="com.PCOSimplifyDASA.promject.firebaseinitprovider"
+172-->[com.google.firebase:firebase-common:20.0.0] C:\Users\hagem\.gradle\caches\transforms-2\files-2.1\428b22906fc668f7dcaab1045cfc5b08\jetified-firebase-common-20.0.0\AndroidManifest.xml:28:13-72
+173            android:directBootAware="true"
+173-->[com.google.firebase:firebase-common:20.0.0] C:\Users\hagem\.gradle\caches\transforms-2\files-2.1\428b22906fc668f7dcaab1045cfc5b08\jetified-firebase-common-20.0.0\AndroidManifest.xml:29:13-43
+174            android:exported="false"
+174-->[com.google.firebase:firebase-common:20.0.0] C:\Users\hagem\.gradle\caches\transforms-2\files-2.1\428b22906fc668f7dcaab1045cfc5b08\jetified-firebase-common-20.0.0\AndroidManifest.xml:30:13-37
+175            android:initOrder="100" />
+175-->[com.google.firebase:firebase-common:20.0.0] C:\Users\hagem\.gradle\caches\transforms-2\files-2.1\428b22906fc668f7dcaab1045cfc5b08\jetified-firebase-common-20.0.0\AndroidManifest.xml:31:13-36
+176
+177        <activity
+177-->[com.google.android.gms:play-services-auth:20.0.1] C:\Users\hagem\.gradle\caches\transforms-2\files-2.1\afd0028c3bb3f533caa81a6fd68c08a1\jetified-play-services-auth-20.0.1\AndroidManifest.xml:23:9-27:75
+178            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+178-->[com.google.android.gms:play-services-auth:20.0.1] C:\Users\hagem\.gradle\caches\transforms-2\files-2.1\afd0028c3bb3f533caa81a6fd68c08a1\jetified-play-services-auth-20.0.1\AndroidManifest.xml:24:13-93
+179            android:excludeFromRecents="true"
+179-->[com.google.android.gms:play-services-auth:20.0.1] C:\Users\hagem\.gradle\caches\transforms-2\files-2.1\afd0028c3bb3f533caa81a6fd68c08a1\jetified-play-services-auth-20.0.1\AndroidManifest.xml:25:13-46
+180            android:exported="false"
+180-->[com.google.android.gms:play-services-auth:20.0.1] C:\Users\hagem\.gradle\caches\transforms-2\files-2.1\afd0028c3bb3f533caa81a6fd68c08a1\jetified-play-services-auth-20.0.1\AndroidManifest.xml:26:13-37
+181            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+181-->[com.google.android.gms:play-services-auth:20.0.1] C:\Users\hagem\.gradle\caches\transforms-2\files-2.1\afd0028c3bb3f533caa81a6fd68c08a1\jetified-play-services-auth-20.0.1\AndroidManifest.xml:27:13-72
+182        <!--
+183            Service handling Google Sign-In user revocation. For apps that do not integrate with
+184            Google Sign-In, this service will never be started.
+185        -->
+186        <service
+186-->[com.google.android.gms:play-services-auth:20.0.1] C:\Users\hagem\.gradle\caches\transforms-2\files-2.1\afd0028c3bb3f533caa81a6fd68c08a1\jetified-play-services-auth-20.0.1\AndroidManifest.xml:33:9-37:51
+187            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+187-->[com.google.android.gms:play-services-auth:20.0.1] C:\Users\hagem\.gradle\caches\transforms-2\files-2.1\afd0028c3bb3f533caa81a6fd68c08a1\jetified-play-services-auth-20.0.1\AndroidManifest.xml:34:13-89
+188            android:exported="true"
+188-->[com.google.android.gms:play-services-auth:20.0.1] C:\Users\hagem\.gradle\caches\transforms-2\files-2.1\afd0028c3bb3f533caa81a6fd68c08a1\jetified-play-services-auth-20.0.1\AndroidManifest.xml:35:13-36
+189            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+189-->[com.google.android.gms:play-services-auth:20.0.1] C:\Users\hagem\.gradle\caches\transforms-2\files-2.1\afd0028c3bb3f533caa81a6fd68c08a1\jetified-play-services-auth-20.0.1\AndroidManifest.xml:36:13-107
+190            android:visibleToInstantApps="true" />
+190-->[com.google.android.gms:play-services-auth:20.0.1] C:\Users\hagem\.gradle\caches\transforms-2\files-2.1\afd0028c3bb3f533caa81a6fd68c08a1\jetified-play-services-auth-20.0.1\AndroidManifest.xml:37:13-48
+191
+192        <activity
+192-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\hagem\.gradle\caches\transforms-2\files-2.1\d805fdf4663d9169f95615b2270229d1\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
+193            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+193-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\hagem\.gradle\caches\transforms-2\files-2.1\d805fdf4663d9169f95615b2270229d1\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:19-85
+194            android:exported="false"
+194-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\hagem\.gradle\caches\transforms-2\files-2.1\d805fdf4663d9169f95615b2270229d1\jetified-play-services-base-18.0.1\AndroidManifest.xml:22:19-43
+195            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+195-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\hagem\.gradle\caches\transforms-2\files-2.1\d805fdf4663d9169f95615b2270229d1\jetified-play-services-base-18.0.1\AndroidManifest.xml:21:19-78
+196
+197        <receiver
+197-->[com.google.android.gms:play-services-measurement:20.1.0] C:\Users\hagem\.gradle\caches\transforms-2\files-2.1\f3ae825971fd511d387082a27a4e2377\jetified-play-services-measurement-20.1.0\AndroidManifest.xml:29:9-33:20
+198            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+198-->[com.google.android.gms:play-services-measurement:20.1.0] C:\Users\hagem\.gradle\caches\transforms-2\files-2.1\f3ae825971fd511d387082a27a4e2377\jetified-play-services-measurement-20.1.0\AndroidManifest.xml:30:13-85
+199            android:enabled="true"
+199-->[com.google.android.gms:play-services-measurement:20.1.0] C:\Users\hagem\.gradle\caches\transforms-2\files-2.1\f3ae825971fd511d387082a27a4e2377\jetified-play-services-measurement-20.1.0\AndroidManifest.xml:31:13-35
+200            android:exported="false" >
+200-->[com.google.android.gms:play-services-measurement:20.1.0] C:\Users\hagem\.gradle\caches\transforms-2\files-2.1\f3ae825971fd511d387082a27a4e2377\jetified-play-services-measurement-20.1.0\AndroidManifest.xml:32:13-37
+201        </receiver>
+202
+203        <service
+203-->[com.google.android.gms:play-services-measurement:20.1.0] C:\Users\hagem\.gradle\caches\transforms-2\files-2.1\f3ae825971fd511d387082a27a4e2377\jetified-play-services-measurement-20.1.0\AndroidManifest.xml:35:9-38:40
+204            android:name="com.google.android.gms.measurement.AppMeasurementService"
+204-->[com.google.android.gms:play-services-measurement:20.1.0] C:\Users\hagem\.gradle\caches\transforms-2\files-2.1\f3ae825971fd511d387082a27a4e2377\jetified-play-services-measurement-20.1.0\AndroidManifest.xml:36:13-84
+205            android:enabled="true"
+205-->[com.google.android.gms:play-services-measurement:20.1.0] C:\Users\hagem\.gradle\caches\transforms-2\files-2.1\f3ae825971fd511d387082a27a4e2377\jetified-play-services-measurement-20.1.0\AndroidManifest.xml:37:13-35
+206            android:exported="false" />
+206-->[com.google.android.gms:play-services-measurement:20.1.0] C:\Users\hagem\.gradle\caches\transforms-2\files-2.1\f3ae825971fd511d387082a27a4e2377\jetified-play-services-measurement-20.1.0\AndroidManifest.xml:38:13-37
+207        <service
+207-->[com.google.android.gms:play-services-measurement:20.1.0] C:\Users\hagem\.gradle\caches\transforms-2\files-2.1\f3ae825971fd511d387082a27a4e2377\jetified-play-services-measurement-20.1.0\AndroidManifest.xml:39:9-43:72
+208            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+208-->[com.google.android.gms:play-services-measurement:20.1.0] C:\Users\hagem\.gradle\caches\transforms-2\files-2.1\f3ae825971fd511d387082a27a4e2377\jetified-play-services-measurement-20.1.0\AndroidManifest.xml:40:13-87
+209            android:enabled="true"
+209-->[com.google.android.gms:play-services-measurement:20.1.0] C:\Users\hagem\.gradle\caches\transforms-2\files-2.1\f3ae825971fd511d387082a27a4e2377\jetified-play-services-measurement-20.1.0\AndroidManifest.xml:41:13-35
+210            android:exported="false"
+210-->[com.google.android.gms:play-services-measurement:20.1.0] C:\Users\hagem\.gradle\caches\transforms-2\files-2.1\f3ae825971fd511d387082a27a4e2377\jetified-play-services-measurement-20.1.0\AndroidManifest.xml:42:13-37
+211            android:permission="android.permission.BIND_JOB_SERVICE" />
+211-->[com.google.android.gms:play-services-measurement:20.1.0] C:\Users\hagem\.gradle\caches\transforms-2\files-2.1\f3ae825971fd511d387082a27a4e2377\jetified-play-services-measurement-20.1.0\AndroidManifest.xml:43:13-69
+212
+213        <meta-data
+213-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\hagem\.gradle\caches\transforms-2\files-2.1\da8548f6b33d0d5c8896e1d6eda227fd\jetified-play-services-basement-18.0.0\AndroidManifest.xml:21:9-23:69
+214            android:name="com.google.android.gms.version"
+214-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\hagem\.gradle\caches\transforms-2\files-2.1\da8548f6b33d0d5c8896e1d6eda227fd\jetified-play-services-basement-18.0.0\AndroidManifest.xml:22:13-58
+215            android:value="@integer/google_play_services_version" />
+215-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\hagem\.gradle\caches\transforms-2\files-2.1\da8548f6b33d0d5c8896e1d6eda227fd\jetified-play-services-basement-18.0.0\AndroidManifest.xml:23:13-66
+216    </application>
+217
+218</manifest>
